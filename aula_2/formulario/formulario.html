@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>label{display: block; margin-top: 10px;}</style>
+</head>
+<body>
+    <form action="#" method="get">
+        <label for="n">Nome</label>
+        <input type="text" name="nome" placeholder="Digite seu nome" id="n">
+
+        <label for="e">E-mail</label>
+        <input type="email" name="email" id="e">
+
+        <label for="i">Idade</label>
+        <input type="number" name="" id="i" min="1" max="120">
+
+        <label for="d"> Data de nascimento</label>
+        <input type="date" name="data" id="d">
+
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" placeholder="Digite sua senha" id="s">
+
+        <label for="a">Arquivo</label>
+        <input type="file" name="arquivo" id="a">
+
+        <label for="u">UF</label>
+        <select type="uf" name="" id="u"> 
+            <optgroup label="Norte">
+                <option value="AC">AC</option>
+                <option value="AM">AM</option>
+                <option value="AP">AP</option>
+                <option value="PA">PA</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="TO">TO</option>
+            </optgroup>
+            
+            <optgroup label="Nordeste">
+                <option value="AL">AL</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="MA">MA</option>
+                <option value="PB">PB</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="RN">RN</option>
+                <option value="SE">SE</option>
+            </optgroup>
+        
+            <optgroup label="Centro-Oeste">
+                <option value="DF">DF</option>
+                <option value="GO">GO</option>
+                <option value="MS">MS</option>
+                <option value="MT">MT</option>
+            </optgroup>
+        
+            <optgroup label="Sudeste">
+                <option value="ES">ES</option>
+                <option value="MG">MG</option>
+                <option value="RJ">RJ</option>
+                <option value="SP">SP</option>
+            </optgroup>
+        
+            <optgroup label="Sul">
+                <option value="PR">PR</option>
+                <option value="RS">RS</option>
+                <option value="SC">SC</option>
+            </optgroup>
+
+        </select>
+
+        <label >Gênero</label>
+        <label> <input type="radio" name="genero" id=""value="Masculino">Masculino</label>
+        <label> <input type="radio" name="genero" id=""value="Feminino">Feminino</label>
+        <label> <input type="radio" name="genero" id=""value="Prefiro não dizer">Outros</label>
+
+        <label >Esportes</label>
+        <label> <input type="checkbox" name="esporte" id=""value="Futebol">Futebol</label>
+        <label> <input type="checkbox" name="esporte" id=""value="Volei">Volei</label>
+        <label> <input type="checkbox" name="esporte" id=""value="Natação">Natação</label>
+
+        <label for="m">Mensagem</label>
+        <textarea type="mensagem" name="mensagem" id="m" rows="5" cols="40"></textarea>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>
