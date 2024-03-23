@@ -45,12 +45,13 @@ h1{
     padding-bottom: 30px;
 }
 
+
 #about {
     background-color: #F24464;
     color: #FFF;
     font-size: 1.5rem;
-    height: 100vh;
-    padding: 50PX;
+    height: 50vh;
+    padding: 50px;
     text-align: justify;
     letter-spacing: 0.1rem;
     line-height: 2rem;
@@ -60,7 +61,7 @@ h1{
 #gallery {
     background-color: #F24464;
     padding: 50px;
-    height: 100vh;
+    height: 50vh;
 }
 
 #gallery img{
@@ -82,11 +83,12 @@ h1{
     font-size: 1.5rem;
     color: #FFF;
     padding: 50px;
-    height: 100vh;
+    height: 60vh;
 }
 
-#contacts label {
-    margin-top: ;
+#contacts label, button{
+	display: block;
+	margin-top: 10px;
 }
 
 #contacts input, textarea {
@@ -113,5 +115,6 @@ footer{
     color: #FFF;
     padding: 10px;
     text-align: center;
+    font-size: medium
 }
 
